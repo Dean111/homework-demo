@@ -9,8 +9,8 @@
 ###UIExplorer中大量使用了一门叫做flow.js的技术，这是做什么用的？
 Flow是一个静态的JS类型检查工具。可以检测出代码中可能出现的类型错误。
 ###UIExplorer进去后菜中中将知识分成了Component（组件）和Api（接口），这两部分的区别是什么？
-
-
+ Component(组件)是reactnative提供的可以直接使用的一些控件，类似导航栏等，大多是一些展示性的东西，而Api接口更多的是实现一些功能，类似ActionSheet,XmlHttpRequest,
+ Api更多的是一种功能性的东西，粒度相对于组件更加细化，更多的是要在组件中去实现的，组件和Api本身并没有什么矛盾，本身负责的功能各不相同。
 ###RN开发，你最终选择了哪款编辑器来写javascript？
 WebStorm
 ###你使用Javascript几年了？
