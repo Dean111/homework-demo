@@ -1,0 +1,19 @@
+###nodejs的作者是谁？ 什么时候发布的？ nodejs和npm的关系是什么？
+1.Node.jsS创始人Ryan Dalh
+2.发布于2009年
+3.Node.js是JavaScript的一种运行环境，是对Google V8引擎进行的封装。是一个服务器端的javascript的解释器。
+包含关系，nodejs中含有npm其实npm是nodejs的包管理器（package manager）。我们在Node.js上开发时，
+会用到很多别人已经写好的javascript代码，如果每当我们需要别人的代码时，都根据名字搜索一下，
+下载源码，解压，再使用，会非常麻烦。于是就出现了包管理器npm。
+
+###UIExplorer中大量使用了一门叫做flow.js的技术，这是做什么用的？
+Flow是一个静态的JS类型检查工具。可以检测出代码中可能出现的类型错误。
+###UIExplorer进去后菜中中将知识分成了Component（组件）和Api（接口），这两部分的区别是什么？
+ Component(组件)是reactnative提供的可以直接使用的一些控件，类似导航栏等，大多是一些展示性的东西，而Api接口更多的是实现一些功能，类似ActionSheet,XmlHttpRequest,
+ Api更多的是一种功能性的东西，粒度相对于组件更加细化，更多的是要在组件中去实现的，组件和Api本身并没有什么矛盾，本身负责的功能各不相同。
+###RN开发，你最终选择了哪款编辑器来写javascript？
+WebStorm
+###你使用Javascript几年了？
+半年
+###你的操作系统是？
+macOsx
